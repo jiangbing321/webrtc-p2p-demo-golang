@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Websocket Client</title>
+</head>
+<body>
+    <h1>WebRTC</h1>
+    <button id="connect">Connect server</button>
+    <button id="disconnect">Disconnect server</button>
+    <div id="app">
+        <label>RoomID</label>
+        <input id="RoomID" type="text" value="room1"/>
+        <label>UserName</label>
+        <input id="UserName" type="text" value="user"/>
+        <button id="JoinButton">Join</button>
+        <button id="LeaveButton">Leave</button>
+    </div>
+    <div>
+        <video id="LocalVideo" autoplay width="480" height="320" style="background-color: aqua; border:solid 1px black"></video>
+        <video id="RemoteVideo"  autoplay width="480" height="320" style="background-color:beige; border:solid 1px black"></video>
+    </div>
+</body>
+<script src="client.js">
+
+</script>
+</html>
