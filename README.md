@@ -8,5 +8,6 @@ This is a simple demo about WebRtc p2p demo, writen with golang. it show how to 
 4. Open browser and input the url "(http://localhost:5001/static/client.html)"
 5. Then use "Connect server" to connect server using Websockt.
 6. Then join the room
-7. Open another browser to do the same thing. 
+7. Open another browser to do the same thing.
+    
 ![demo](./static/demo.png "demo")
