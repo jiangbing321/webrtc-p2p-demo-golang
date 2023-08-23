@@ -11,3 +11,6 @@ This is a simple demo about WebRtc p2p, writen with golang. it shows how to mang
 7. Open another browser to do the same thing.
     
 ![demo](./static/demo.png "demo")
+
+Work flow 
+![Work flow](./static/workflow.png "Work flow ")
